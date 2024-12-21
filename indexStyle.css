@@ -11,37 +11,51 @@ body {
     max-width: auto;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background: linear-gradient(to left, lightblue 20%, aliceblue 50%, lightblue 80%);
+    background: rgba(57, 6, 6, 0.59);
 }
 
 header {
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 5px;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px rgb(226, 208, 208);
+    color: white;
+    position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    padding: 0 10px;
+    margin-bottom: 50vh;
 }
 
-article {
+#biodata {
     background-color: wheat;
-    padding: 10px;
-    box-shadow: 5px 5px rgb(240, 229, 210);
-    max-width: 1200px;
+    background-size: cover;
+    padding: 10px 20px 10px;
+    margin: 100px auto 0 auto;
 }
 
-main {
+#tugas {
     background-color: rgb(255, 228, 146);
-    box-shadow: 5px 5px rgb(255, 237, 195);
-    padding-bottom: 50px;
-    padding: 0px 0px 20px 20px;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 10px 0 40px 20px;
     border: none;
 }
 
-main a {
+#tugas h3 {
+    margin-bottom: 40px;
+}
+
+#tugas a {
     text-align: center;
     background-color: antiquewhite;
     padding: 20px 20px 20px 20px;
     margin-bottom: 20px;
     text-decoration: none;
     color: black;
+    margin-bottom: 40px;
+}
+
+#tugas a:hover {
+    background-color: rgb(211, 153, 77);
+    color: rgb(255, 255, 255);
 }
